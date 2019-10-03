@@ -8,7 +8,7 @@ import type {
   FilePath,
   InitialParcelOptions,
   ModuleSpecifier
-} from '@parcel/types';
+} from '@parcel/types';   
 import type {ParcelOptions} from './types';
 import type InternalBundleGraph from './BundleGraph';
 import type ParcelConfig from './ParcelConfig';
