@@ -8,7 +8,7 @@ export default new Reporter({
   async report(event, options) {
     if (event.type === 'buildSuccess') {
       let metricsFilePath = path.join(
-        options.projectRoot,
+        process.cwd(),
         'parcel-metrics.json'
       );
 
